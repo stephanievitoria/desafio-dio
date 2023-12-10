@@ -1,4 +1,4 @@
-// O objetivo é criar uma variável com nome do herói e quantidade de XP dele, utilizando uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+// O objetivo é criar uma variável com nome do herói e a quantidade de XP dele, utilizando uma estrutura de decisão para apresentar uma das mensagens abaixo:
 // XP < 1.000 = Ferro
 // 1.001 < XP < 2.000 = Bronze
 // 2.001 < XP < 5.000 = Prata
