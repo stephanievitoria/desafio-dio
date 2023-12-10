@@ -39,6 +39,5 @@ else if (quantidadeDeXP === 8.001 < 9.000) {
 else if (quantidadeDeXP === 9.001 < 10.000) {
     console.log (mensagem);
 }
-else {
-    console.log (mensagem);
+else {console.log (mensagem);
 }
