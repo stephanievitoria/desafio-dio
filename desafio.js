@@ -13,31 +13,29 @@ let nomeDoHeroi = "Athena";
 let quantidadeDeXP = 7.500;
 
 //Exibindo mensagem final
-const mensagem = 'O Herói de nome {nomeDoHeroi} está no nível de {quantidadeDeXP}.';
+const mensagem = `O Herói de nome ${nomeDoHeroi} está no nível de ${quantidadeDeXP}.`;
 
-if (quantidadeDeXP === 1.001 < 2.000){
-    console.log (mensagem);
-}
-else if (quantidadeDeXP === 2.001 < 3.000) {
-    console.log (mensagem);
-}
-else if (quantidadeDeXP === 3.001 < 4.000) {
-    console.log (mensagem);
-}
-else if (quantidadeDeXP === 4.001 < 5.000) {
-    console.log (mensagem);
-}
-else if (quantidadeDeXP === 5.001 < 6.000) {
-    console.log (mensagem);
-}
-else if (quantidadeDeXP === 7.001 < 8.000) {
-    console.log (mensagem);
-}
-else if (quantidadeDeXP === 8.001 < 9.000) {
-    console.log (mensagem);
-}
-else if (quantidadeDeXP === 9.001 < 10.000) {
-    console.log (mensagem);
-}
-else {console.log (mensagem);
+if (quantidadeDeXP < 1.000) {
+    console.log("Ferro: " + mensagem);
+} 
+else if (quantidadeDeXP > 1.001 && quantidadeDeXP <= 2.000) {
+    console.log("Bronze: " + mensagem);
+} 
+else if (quantidadeDeXP > 2.001 && quantidadeDeXP <= 5.000) {
+    console.log("Prata: " + mensagem);
+} 
+else if (quantidadeDeXP > 6.001 && quantidadeDeXP <= 7.000) {
+    console.log("Ouro: " + mensagem);
+} 
+else if (quantidadeDeXP > 7.001 && quantidadeDeXP <= 8.000) {
+    console.log("Platina: " + mensagem);
+} 
+else if (quantidadeDeXP > 8.001 && quantidadeDeXP <= 9.000) {
+    console.log("Ascendente: " + mensagem);
+} 
+else if (quantidadeDeXP > 9.001 && quantidadeDeXP <= 10.000) {
+    console.log("Imortal: " + mensagem);
+} 
+else {
+    console.log("Radiante: " + mensagem);
 }
